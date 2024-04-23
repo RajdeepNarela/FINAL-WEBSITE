@@ -56,12 +56,12 @@ nav a {
 
 .hero-banner {
     display: flex;
-    flex-direction: column; /* Stacks children elements vertically */
-    justify-content: center; /* Centers vertically in the banner */
-    align-items: center; /* Centers horizontally */
-    height: 800px; /* Adjust height as necessary */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 800px; 
     padding: 20px;
-    background-image: url('Assets/hero.jpg');
+    background-image: url('assets/hero.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -69,7 +69,7 @@ nav a {
 }
 
 .hero-banner h1, .hero-banner p {
-    margin: 10px 0; /* Adds some vertical spacing between elements */
+    margin: 10px 0; 
 }
 
 
@@ -255,19 +255,19 @@ section {
 }
 /* Responsive Video Wrapper */
 .video-wrapper {
-    position: relative; /* Allows positioning within a relative container */
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0; /* Zero height to enable aspect ratio */
-    overflow: hidden; /* Hide overflow */
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
 }
 
 /* Responsive Video Iframe */
 .video-wrapper iframe {
-    position: absolute; /* Absolute positioning within the wrapper */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    width: 100%; /* Full width to ensure responsiveness */
-    height: 100%; /* Full height to maintain aspect ratio */
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
 }
 
 .card-section {
