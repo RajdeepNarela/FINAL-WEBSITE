@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Shipment - Ataraxis Services</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html" class="active">Book a Shipment</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="bookingForm" class="form-container">
+            <h1>Book Your Shipment</h1>
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="calgary">Ship to Calgary</option>
+                <option value="nigeria">Ship to Nigeria</option>
+            </select>
+            
+            <label for="shipmentType">Select Shipment Type:</label>
+            <select id="shipmentType" name="shipmentType">
+                <option value="air">By Air</option>
+                <option value="sea">Sea Cargo</option>
+                <option value="frozen">Frozen</option>
+            </select>
+        
+            <label for="senderName">Sender Name:</label>
+            <input type="text" id="senderName" name="senderName" required>
+        
+            <label for="senderContact">Sender Contact:</label>
+            <input type="text" id="senderContact" name="senderContact" required>
+        
+            <label for="receiverName">Receiver Name:</label>
+            <input type="text" id="receiverName" name="receiverName" required>
+        
+            <label for="receiverContact">Receiver Contact:</label>
+            <input type="text" id="receiverContact" name="receiverContact" required>
+        
+            <label for="alternativeContact">Alternative Contact:</label>
+            <input type="text" id="alternativeContact" name="alternativeContact">
+        
+            <label for="receiverAddress">Receiver Address with Postal Code:</label>
+            <input type="text" id="receiverAddress" name="receiverAddress" required>
+        
+            <label for="totalBoxes">Total Approx Boxes:</label>
+            <input type="number" id="totalBoxes" name="totalBoxes" required>
+        
+            <label for="totalWeight">Weight (if known):</label>
+            <input type="text" id="totalWeight" name="totalWeight">
+        
+            <button type="submit">Submit</button>
+        </form>
+        
+    </main>
+    <footer>
+        <p>© 2024 Ataraxis Services. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

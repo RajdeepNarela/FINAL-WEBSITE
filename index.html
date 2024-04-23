@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ataraxis Services - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="covid.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Book a Shipment</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-banner">
+            <h1>Welcome to Ataraxis Services</h1>
+            <p>Your trusted partner in logistics between Nigeria and Calgary</p>
+            <a href="booking.html" class="button">Book A Shipment!</a>
+        </div>
+        <center>
+        <h1>Country Information</h1>
+        <form id="country-form">
+            <input type="text" id="country-name-input" placeholder="Enter country name">
+            <button type="button" onclick="fetchCountryData()">Get Information</button>
+        </form>
+        <div>
+            <p>Country: <span id="country-name">-</span></p>
+            <p>Capital City: <span id="capital-city">-</span></p>
+            <p>Population: <span id="population">-</span></p>
+        </div>
+    </center>
+
+<center>
+    <div class="video-wrapper">
+        <iframe
+            src="https://www.youtube.com/embed/8d5d_HXGeMA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+    
+        </center>
+    </iframe>
+</section>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="Assets/sea.jpg" alt="Sea Cargo">
+                <div class="card-content">
+                    <h3>Sea Cargo</h3>
+                    <p>Reliable sea cargo services offering extensive coverage and environmental sustainability.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="Assets/frozen.jpg" alt="Frozen Shipments">
+                <div class="card-content">
+                    <h3>Frozen Shipments</h3>
+                    <p>Specialized frozen shipment solutions ensuring your goods stay intact and fresh throughout their journey.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="Assets/air.jpg" alt="Air Freight">
+                <div class="card-content">
+                    <h3>Air Freight</h3>
+                    <p>Fast and secure air freight services for when time is of the essence and the utmost care is required.</p>
+                </div>
+            </div>
+        </div>
+                </section>
+        
+        <main>
+            <section class="about-us">
+                <center>
+                <h2>About Us</h2>
+            </center>
+                <p>At Ataraxis Services, we specialize in providing top-tier logistics solutions, bridging the gap between Nigeria and Calgary. With a focus on reliability and customer satisfaction, we handle everything from sea cargo and frozen shipments to regular cargo shipments, ensuring your goods arrive safely and on time. Trust us to facilitate your international shipping needs with excellence and professionalism.</p>
+            </section>
+        </main>
+        <center>
+        <section class="accordion-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+              <input type="checkbox" id="accordion-item-1" class="accordion-checkbox" hidden />
+              <label for="accordion-item-1" class="accordion-toggle">Do you provide door-to-door delivery anywhere in Canada?</label>
+              <div class="accordion-content">
+                <p>Yes, we do provide door-to-door delivery services across Canada, ensuring maximum convenience for our clients.</p>
+              </div>
+              
+              <input type="checkbox" id="accordion-item-2" class="accordion-checkbox" hidden />
+              <label for="accordion-item-2" class="accordion-toggle">How long does it take for a shipment to arrive in Calgary from Nigeria?</label>
+              <div class="accordion-content">
+                <p>The transit time for shipments from Nigeria to Calgary typically ranges from 2 to 4 weeks, depending on the mode of transport and customs clearance.</p>
+              </div>
+              
+              <input type="checkbox" id="accordion-item-3" class="accordion-checkbox" hidden />
+              <label for="accordion-item-3" class="accordion-toggle">How many days are you open?</label>
+              <div class="accordion-content">
+                <p>We operate 7 days a week to ensure that your shipping needs are met promptly and efficiently.</p>
+              </div>
+            </center>
+            </div>
+          </section>                       
+    </header>
+
+    <footer>
+        <div class="footer-wrapper">
+        
+    
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: support@ataraxis.com</p>
+                <p>Phone: +1 123 456 7890</p>
+                <p>Address: 123 Shipping Street, Calgary, AB</p>
+            </div>
+    
+            <!-- Footer Map -->
+            <div class="footer-map">
+                <h4>Our Location</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8687614065716!2d-114.07184638468118!3d51.04473397955956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fe3c7cbb8e7%3A0x8d4048931a9b5c8b!2s123%20Shipping%20Street%2C%20Calgary%2C%20AB!5e0!3m2!1sen!2sca!4v1634859513895!5m2!1sen!2sca"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </footer>
+        
+        
+        <div class="footer-copyright-fixed">
+            <p>© 2024 Ataraxis Services. All rights reserved.</p>
+        </div>
+    </footer>  
+    <script src="script.js"></script>
+</body>
+</html>
